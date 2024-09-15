@@ -18,5 +18,7 @@ function palette(){
      document.querySelectorAll(".C>p")[i].innerHTML=r;
     }
 }
-palette();
+$("button").click(function(){
+    palette();
+})
 
